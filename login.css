@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    margin: 0rem;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(1rem, 5vw, 5rem);
+    color: white;
+    padding: 0rem clamp(1rem, 50vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    transition: background-color 0.3s ease; 
+    z-index: 3;
+    position: absolute;
+    top: 50px;
+}
+h1:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
