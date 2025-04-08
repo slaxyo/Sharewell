@@ -1,5 +1,5 @@
 # Sharewell
-Personal project for Abdiwadud Issak
+Personal project for Abdi
 
 About Project
 
